@@ -13,6 +13,6 @@
  	$obcDebug = true;
  	
  	define('obcDatabaseUsername', ''); // user name matching this wiki in OpasnetBase2 user database
- 	define('obcDatabasePassword', ''); // corresponding password/secret 
+ 	define('obcDatabasePassword', ''); // corresponding password/secret
  	
 ?>
