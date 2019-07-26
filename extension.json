@@ -9,7 +9,7 @@
 	"url": "http://en.opasnet.org/w/Opasnet Base",
 	"description": "OpasnetBase - Opasnet database user interface",
 	"descriptionmsg": "Opasnet database user interface",
-	"license-name": "CC BY-SA 3.0",
+	"license-name": "MIT",
 	"type": "specialpage",
 	"SpecialPages": {
 		"OpasnetBase": "OpasnetBase"
