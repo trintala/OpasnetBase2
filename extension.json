@@ -1,0 +1,42 @@
+{
+	"name": "OpasnetBase",
+	"version": "2.1.0",
+	"author": [
+		"Einari Happonen",
+		"Juha Villman",
+		"Teemu Rintala"
+	],
+	"url": "http://en.opasnet.org/w/Opasnet Base",
+	"description": "OpasnetBase - Opasnet database user interface",
+	"descriptionmsg": "Opasnet database user interface",
+	"license-name": "CC BY-SA 3.0",
+	"type": "specialpage",
+	"SpecialPages": {
+		"OpasnetBase": "OpasnetBase"
+	},
+	"ExtensionMessagesFiles": {
+		"OpasnetBase": "OpasnetBase.i18n.php",
+		"OpasnetBaseAlias": "OpasnetBase.alias.php"
+	},
+	"AutoloadClasses": {
+		"OpasnetBase": "OpasnetBase_body.php",
+		"OpasnetBaseParser": "OpasnetBase.parser.php",
+		"OpasnetObject": "lib/OpasnetObject.class.php"
+	},
+	"ResourceModules": {
+		"ext.OpasnetBase": {
+			"scripts": "modules/scripts.js",
+			"styles": "modules/screen.css"
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "OpasnetBase"
+	},
+	"Hooks": {
+		"ParserFirstCallInit": [
+			"OpasnetBaseParser::efOpasnetBaseInit"
+		]
+	},
+	"manifest_version": 1
+}

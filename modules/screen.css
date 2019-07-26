@@ -1,0 +1,269 @@
+div#base_wrapper
+{
+	font-family: arial;
+	font-size: 11px;
+}
+
+#base_wrapper table
+{
+	border-collapse: collapse;
+}
+
+#base_wrapper table th
+{
+	border: solid 1px #999;
+	background-color: #999;
+	color: #fff;
+	padding: 3px;
+	text-align: left;
+	font-size: 11px;
+}
+
+#base_wrapper th a:link,
+#base_wrapper th a:visited,
+#base_wrapper th a:active,
+#base_wrapper th a:hover
+{
+	color: #fff;
+	font-size: 11px;
+}
+
+#base_wrapper table td
+{
+	padding: 3px;
+	border: solid 1px #999;
+}
+
+form#results_actions
+{
+	margin-bottom: 10px;
+}
+
+#base_wrapper a:link,
+#base_wrapper a:active,
+#base_wrapper a:visited
+{
+	text-decoration: none;
+	color: #40f;
+}
+
+#base_wrapper a:hover
+{
+	text-decoration: underline;
+	color: #40f;
+}
+
+div.popup
+{
+	border: solid 1px black;
+	background-color: #fff;
+	padding: 10px;
+	position: absolute;
+	left: 10%;
+	top: 10px;
+	display: none;
+	min-width: 200px;
+	z-index: 100;
+}
+
+div#upload_history
+{
+	left: 15%;
+	max-width: 750px;
+}
+
+.popup_actions
+{
+	margin-top: 1em;
+	text-align: right;
+}
+
+.popup_actions input[type='button']
+{
+	border: solid 1px #666;
+	background-color: #aaa;
+	color: #fff;
+	font-size: 11px;
+	padding: 1px;
+	cursor: pointer;
+}
+
+.popup_actions input[disabled]
+{
+	color: #999;
+	cursor: default;
+}
+
+.check_options
+{
+	float: left;
+	padding-right: 20px;
+}
+
+.check_options a:link,
+.check_options a:visited,
+.check_options a:active,
+.check_options a:hover
+{
+	font-size: 11px !important;
+}
+
+table.clean td
+{
+	border: 0 !important;
+}
+
+div#smokescreen
+{
+	display: none;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	background-color: #fff;
+	opacity: 0.8;
+	filter: alpha(opacity=80);
+	z-index: 50;
+}
+
+table.upload_history
+{
+	border-collapse: collapse;
+	border-spacing: 0p;
+	border: 0;
+}
+
+table.upload_history td
+{
+	padding: 1px 5px 1px 5px !important;
+	border: 0;
+}
+
+table.upload_history tr.r1
+{
+/*	background-color: #f0f0f0;*/
+}
+
+table.upload_history tr.current_run
+{
+	border: solid 1px #888;
+	font-weight: bold;
+	background-color: #eee;
+}
+
+
+table.upload_history tr.r1, table.upload_history tr.r0
+{
+	border-top: solid 1px #aaa;
+}
+
+table.upload_history tr.r1:hover, table.upload_history tr.r0:hover
+{
+	/*background-color: #ccf;*/
+	background-color: #f0f0f0;
+	cursor: pointer;
+}
+
+table.locations td
+{
+	vertical-align: top;
+	padding: 0px 20px 0px 0px !important;
+}
+
+div.gentime
+{
+	text-align: right;
+	font-size: 9px;
+	color: #aaa;
+	padding-top: 5px;
+}
+
+div#loader
+{
+	position: fixed;
+	top: 300px;
+	left: 45%;
+	width: 100px;
+	height: 84px;
+	/*background-color: #aaa;*/
+	/*
+	background-color: #fff;
+	border: solid 1px #fff;
+	*/
+	text-align: center;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	padding-top: 16px;
+	/*opacity: 0.9;*/
+	display: none;
+	z-index: 5000;
+}
+
+div.query_debug
+{
+	padding: 10px 0px 10px 0px;
+	border-top: solid 1px #aaa;
+	background-color: #ffa;
+}
+
+table.ob_variables
+{
+	border-collapse: collapse;
+	border-spacing: 0px;
+	border: 0;
+}
+
+table.ob_variables td
+{
+	vertical-align: top;
+	padding-right: 20px;
+}
+
+/* HILITE ERRONEUS OBJECTS */
+li.no_acts a:link,
+li.no_acts a:active,
+li.no_acts a:visited,
+li.no_acts a:hover
+{
+	color: #a00;
+	font-weight: bold;
+}
+
+
+/* append */
+.act_type_append
+{
+	color: #0a0;
+}
+
+/* replace */
+.act_type_replace
+{
+	color: #a00;
+}
+
+.dataset_selector_container
+{
+	height: 35px;
+}
+
+.dataset_selector
+{
+	float: left;
+	height: 25px;
+	line-height: 25px;
+	font-weight: bold;
+	border-top: solid 1px #aaa;
+	border-left: solid 1px #aaa;
+	border-right: solid 1px #aaa;
+	padding: 0px 10px 0px 10px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	background-color: #efefef;
+}
+
+.dataset_selector.selected
+{
+	background-color: #fff;
+}
